@@ -1,0 +1,145 @@
+"# curl" ;
+
+
+ 
+C:\>u:
+
+U:\>dir
+ Volume in drive U is STUDSCI
+ Volume Serial Number is A016-6843
+
+ Directory of U:\
+
+18/09/2017  10:32    <DIR>          .
+18/09/2017  10:32    <DIR>          ..
+12/04/2016  10:10    <DIR>          .recommenders
+04/04/2016  11:57            33,792 accounting.xls
+09/05/2016  09:17    <DIR>          bootstrap
+18/09/2017  10:34    <DIR>          data rep
+16/02/2017  12:13    <DIR>          Database
+18/09/2017  10:02    <DIR>          Documents
+03/04/2017  13:56    <DIR>          Dynamic Web
+16/11/2016  11:50            13,296 Enterprise Ireland website.docx
+09/05/2016  11:27    <DIR>          FlanaganMichelle
+02/03/2016  14:53    <DIR>          FlanaganMichelle 40%
+07/04/2016  11:46           320,512 Galway Gadgets.mpp
+04/12/2014  10:12    <DIR>          gui
+20/03/2015  15:34    <DIR>          illustor
+24/03/2015  17:32    <DIR>          indesign
+24/01/2017  13:18            12,095 INDIVIDUAL PROJECT.docx
+12/04/2016  10:38    <DIR>          Mflanagan
+21/11/2014  14:05                91 Michelle Flanagan Photoshop.rar
+29/03/2017  14:36    <DIR>          Mobile design
+26/10/2016  14:29             1,632 page.zip
+06/10/2016  12:23    <DIR>          photoshop
+11/04/2016  10:37    <DIR>          project ms
+07/04/2016  11:58           319,488 ProjectPlanV2(G00314881).mpp
+15/02/2016  11:34           360,359 Proposal Form.docx
+23/02/2016  15:57           393,463 SysInternal Tools.docx
+14/03/2016  12:58             4,691 TB.pdf
+19/01/2016  15:54                 0 test.docx
+19/01/2016  15:54                 0 test2.docx
+15/09/2017  16:46    <DIR>          unity
+15/03/2017  11:09    <DIR>          video and audio
+11/04/2016  11:55            33,280 whatifanalysis3.xls
+              13 File(s)      1,492,699 bytes
+              19 Dir(s)          24,576 bytes free
+
+
+
+U:\>cd "data rep"
+
+U:\data rep>dir
+ Volume in drive U is STUDSCI
+ Volume Serial Number is A016-6843
+
+ Directory of U:\data rep
+
+18/09/2017  10:34    <DIR>          .
+18/09/2017  10:34    <DIR>          ..
+18/09/2017  10:33                17 README.md.txt
+               1 File(s)             17 bytes
+               2 Dir(s)          24,576 bytes free
+
+U:\data rep>echo "# curl" >> README.text;
+
+
+U:\data rep>git init
+error: copy-fd: write returned: No space left on device
+fatal: cannot copy 'C:\Program Files\Git\mingw64/share/git-core/templates/hooks/pre-rebase.sample' to 'U:/data rep/.git/hooks/pre-rebase.sample': No space left on device
+
+U:\data rep>git init
+Initialized empty Git repository in U:/data rep/.git/
+
+
+U:\data rep>c:
+
+C:\>cd Users/
+
+C:\Users>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0A10-B4D0
+
+ Directory of C:\Users
+
+18/09/2017  10:11    <DIR>          .
+18/09/2017  10:11    <DIR>          ..
+18/09/2017  10:13    <DIR>          g00314881
+13/09/2017  21:41    <DIR>          G00324655
+18/09/2017  09:12    <DIR>          G00344919
+18/05/2017  12:22    <DIR>          Public
+               0 File(s)              0 bytes
+               6 Dir(s)  321,303,695,360 bytes free
+
+C:\Users>cd g00314881
+
+C:\Users\g00314881>cd Desktop
+
+C:\Users\g00314881\Desktop>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0A10-B4D0
+
+ Directory of C:\Users\g00314881\Desktop
+
+18/09/2017  10:58    <DIR>          .
+18/09/2017  10:58    <DIR>          ..
+18/09/2017  10:58    <DIR>          data rep
+               0 File(s)              0 bytes
+               3 Dir(s)  321,303,695,360 bytes free
+
+C:\Users\g00314881\Desktop>cd "data rep"
+
+C:\Users\g00314881\Desktop\data rep>git init
+Reinitialized existing Git repository in C:/Users/g00314881/Desktop/data rep/.git/
+
+C:\Users\g00314881\Desktop\data rep>git add README.md.txt
+
+C:\Users\g00314881\Desktop\data rep>git commit -m "first commit"
+[master (root-commit) b87e12f] first commit
+ Committer: MICHELLE FLANAGAN - Student <G00314881@gmit.ie>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md.txt
+
+C:\Users\g00314881\Desktop\data rep>git remote add origin https://github.com/michelle-flan2/curl.git
+
+C:\Users\g00314881\Desktop\data rep>git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 250 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/michelle-flan2/curl.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+C:\Users\g00314881\Desktop\data rep>
